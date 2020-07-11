@@ -1,0 +1,299 @@
+/* Basic Styling */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1rem;
+    font-family: 'Roboto', sans-serif;;
+}
+
+/* Utility Classes */
+
+#header #navbar a{
+    text-decoration: none;
+    line-height: 1rem;
+    color: white;
+
+}
+
+.bg-dark{
+    background-color: #333;
+}
+
+p{
+    line-height: 1.5rem;
+    color: white;
+    padding: 0.25rem;
+}
+
+
+h1{
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    color: white;
+    font-weight: 1000;
+    font-size: 50;
+
+}
+
+.text-primary{
+
+    color: coral;
+}
+
+
+/* Navbar Styling */
+
+#navbar{
+    
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar .container .logo img{
+
+    height: 5rem;
+    padding: 0.5rem 2rem;
+}
+
+#navbar .container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .container .nav-stuff ul{
+
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+#navbar .container .nav-stuff li a{
+
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+}
+
+#navbar .container .nav-stuff li a:hover{
+
+    background-color: coral;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+
+.index-content .container .content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px ;
+    width: 700px;
+    text-align: center;
+    height: 100%;
+    
+    
+}
+
+.index-content .container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#header .index-content{
+
+    background: #333 url(../img/showcase.jpg) no-repeat center center/cover;
+    overflow: hidden;
+    height: 100vh;
+       
+}
+
+.index-content .container .content h1{
+
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.index-content .container .content p{
+
+    line-height: 1.5rem;
+    font-size: 20px;
+}
+
+.index-content .container .content .btn{
+
+    color: #fff;
+    padding: 10px 5px ;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.index-content .container .content  a:hover{
+
+    background: coral;
+    border-radius: 5px;
+    
+}
+
+/* Info section Styling*/
+
+.home-info{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: coral;
+    
+}
+
+.home-info img{
+
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.home-info .info-content{
+
+    text-align: center;
+    padding: 4rem;
+}
+
+.home-info .info-content a{
+    color: wheat;
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+    background-color:black;
+    border-radius: 5px;
+    
+}
+
+.home-info .info-content a:hover{
+
+    background-color: coral;
+}
+
+.home-info .info-content p{
+
+    margin-bottom: 40px;
+}
+
+/* Footer Styling */
+
+#footer{
+
+    color: white;
+    background-color: coral;
+    text-align: center;
+    padding: 15px;
+}
+
+/* About Page Styling*/
+
+#about-page h1,p{
+
+    color: black;
+    line-height: 2rem;
+    
+}
+
+ .nav-content a{
+    color: white;
+}
+
+#about-page{
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4;
+    
+}
+
+#about-page .about-img1{
+
+    background: url(../img/photo-2.jpg) no-repeat center center/cover;
+    width: 50%;
+    height: 300px;
+    margin: 50px;
+    border-radius: 500px;
+    
+}
+
+#about-page .container-content{
+
+    width: 50%;
+    margin: 20px;
+
+}
+
+.nav-content a{
+
+    text-decoration: none;
+}
+#about-page .about-img2{
+
+    background: url(../img/test-bg.jpg) no-repeat center center/cover;
+    width: 50%;
+    height: 300px;
+    margin: 50px;
+    border-radius: 500px;
+    
+}
+
+/* Contact Form Styling*/
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+    width: 500px;
+    
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact-form input, 
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+  }
+  
+  #contact-form textarea {
+    height: 200px;
+  }
+  
+  #contact-form input:focus, 
+  #contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+  }
+
+  #contact-form .btn{
+
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+  }
+
+  #contact-form h1,h2{
+
+    color: black;
+    line-height: 5rem;
+  }

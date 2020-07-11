@@ -1,0 +1,88 @@
+
+
+a{
+    background-color: coral;
+    border-radius: 5px;
+    
+
+}
+
+#navbar{
+
+    height: 150px;
+}
+
+#navbar li a:hover{
+
+    background-color: green;
+}
+
+li{
+
+    margin-top: 20px;
+}
+
+/* Navbar */
+
+#header{
+
+    flex-direction: column;
+}
+
+#header #navbar{
+
+    flex-direction: column;
+}
+
+    #navbar .container{
+
+    flex-direction: column;
+    
+}
+
+#header #navbar .container .logo{
+
+    flex-direction: column;
+}
+
+/* Home Section*/
+
+.index-content{
+
+    flex-direction: column;
+}
+
+.index-content .container{
+
+    flex-direction: column;
+}
+
+.index-content .content{
+
+    flex-direction: column;
+
+}
+
+/* Section */
+
+.home-info{
+
+    flex-direction: column;
+}
+
+/* About Page */
+
+#about-page{
+
+    flex-direction: column;
+    text-align: center;
+}
+
+#about-page .container-content{
+
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+
